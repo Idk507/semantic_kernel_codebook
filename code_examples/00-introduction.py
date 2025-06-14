@@ -24,7 +24,7 @@ plugin = kernel.add_plugin(parent_directory = "../plugins/prompt_templates/", pl
 greeting_function = plugin["greeting"]
 
 async def greeting():
-    return await kernel.invoke(greeting_function, KernelArguments(name="kuljot", age="18"))
+    return await kernel.invoke(greeting_function, KernelArguments(name="Dhanushkumar", age="22"))
 
 greeting_response =  asyncio.run(greeting())
 
