@@ -119,7 +119,7 @@ async def parallel_execution():
     contact_function = plugin["greeting"]
     
     #query which will execute in parallel
-    query1 = "greet kuljot who is of age 19 and tell me how much is 10 divided by 2"
+    query1 = "greet dhanushkumar who is of age 22 and tell me how much is 10 divided by 2"
     
     
     
@@ -161,7 +161,7 @@ async def sequential_execution():
     contact_function = plugin["greeting"]
     
     #query which will execute in sequence
-    query1 = "greet kuljot who is of age 19 and tell me how much is 10 divided by 2"
+    query1 = "greet beyhadh  who is of age 22 and tell me how much is 10 divided by 2"
     
     planner = SequentialPlanner(
     kernel,
